@@ -1,0 +1,35 @@
+body{
+	background-color:black;
+	color: white;
+	
+}
+
+
+
+.square {
+	width: 200px;
+	height: 200px;
+	border-style: solid;
+	border-color: black;
+	background-color: hotpink;
+}
+
+
+
+.grid{
+	/* lines squares horizontally */
+	display: flex;
+	/*  turns grid from a series of columns to a series of big squares*/
+	flex-flow: row wrap;
+	/* center the entire grid */
+	justify-content: center;
+	align-content: center;
+	/* turn into a square grid with height and width */
+	width: 618px;
+	height: 618px;
+}
+
+.mole{
+	background-image: url('jagger.png');
+	background-size: cover;
+}
